@@ -20,7 +20,7 @@ void init(void* pUserData, Screen* pScreen){
     pDat->dx = 0.0f;
     pDat->dy = 0.0f;
     // set grass color
-    setColor(GRASS, 64,128,64);
+    setColor(GRASS, 64,140,64);
     setColorPair(1, GRASS, GRASS);
     // Set player color
     setColor(CHARACTER, 128, 128, 255);
