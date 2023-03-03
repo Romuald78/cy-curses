@@ -19,10 +19,11 @@ void init(void* pUserData, Screen* pScreen){
     pDat->y = 10.0f;
     pDat->dx = 0.0f;
     pDat->dy = 0.0f;
-    // set grass color
+    // set cell colors
     setColor(GRASS, 64,140,64);
-    setColorPair(1, GRASS, GRASS);
+    setColor(ROCK, 128,128,128);
+    setColor(WATER, 64,64,255);
     // Set player color
     setColor(CHARACTER, 128, 128, 255);
-    setColorPair(2, CHARACTER, GRASS);
+    setColorPair(CHARACTER, CHARACTER, GRASS);
 }

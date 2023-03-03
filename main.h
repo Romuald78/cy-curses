@@ -3,8 +3,15 @@
 
 #include "./sources/libRGR/libRGR.h"
 
+typedef enum{
+    GRASS = 1,
+    ROCK,
+    WATER,
+    CHARACTER = 127
+} CellType;
+
 #define GRASS     1
-#define CHARACTER 2
+
 
 #define SPEED        1.0f
 #define ACCELERATION 0.5f
